@@ -1,0 +1,39 @@
+/* 
+ base is define the default for element 
+ component is create component for reusable
+ utilities is for adjust element override component and base 
+ theme is for custom theme
+*/
+
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #ff0040;
+}
+
+@layer base {
+  p {
+    @apply text-sm text-center md:text-base lg:text-xl;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    font-family: inter, kanit;
+    @apply bg-slate-950 text-slate-200;
+  }
+
+  .muted-text {
+    @apply text-slate-400;
+  }
+
+  .btn {
+    @apply px-4 py-2 text-base font-bold rounded-md cursor-pointer md:text-lg text-white lg:text-xl bg-accent;
+  }
+
+  .section-heading {
+    @apply text-3xl font-bold md:text-4xl lg:text-5xl;
+  }
+}
