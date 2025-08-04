@@ -11,7 +11,7 @@ const Header = () => {
           Purefolio
         </h2>
 
-        <ul className="hidden space-x-6 text-xs font-bold xl:text-sm md:flex muted-text">
+        <ul className="items-center hidden space-x-6 text-xs font-medium xl:text-sm md:flex muted-text">
           <li>
             <a href="#home" className="hover:text-accent">
               Home
@@ -33,9 +33,13 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-xs button lg:text-sm xl:text-sm">
+            <a href="" className="text-xs btn xl:text-sm">
               Resume
-
+            </a>
+          </li>
+          <li>
+            <a href="" className="text-sm btn">
+              Resume
             </a>
           </li>
         </ul>
@@ -60,7 +64,6 @@ const Header = () => {
             <a href="#" className="block py-2">
               Contact
             </a>
-            <button className="mt-8 btn">Resume</button>
           </div>
         )}
       </nav>
