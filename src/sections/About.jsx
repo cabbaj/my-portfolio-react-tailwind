@@ -1,5 +1,10 @@
 import mePic from "../assets/me-pic.jpg";
-import reactLogo from "../assets/stacks/react.svg";
+import { FaReact } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaCss3Alt } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaGitAlt } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -13,30 +18,50 @@ const About = () => {
         />
 
         <p className="text-left">
-          Hello there! I’m Phompowadon, but you can call me{" "}
-          <strong className="text-white">Pure</strong>. I hold a Bachelor’s degree in Computer
-          Engineering from Rajamangala University of Technology Srivijaya. I
-          specialize in <strong className="text-white">building responsive</strong>,
+          Hello there! I'm Phompowadon, but you can call me{" "}
+          <strong className="text-white">Pure</strong>. I hold a Bachelor’s
+          degree in Computer Engineering from Rajamangala University of
+          Technology Srivijaya. I specialize in{" "}
+          <strong className="text-white">building responsive</strong>,
           <strong className="text-white">user-focused</strong> web interfaces
         </p>
         <p className="text-left">
-          I'm currently improving my <strong className="text-white">full-stack</strong> development
-          skills and always ready to learn new things.
+          I'm currently improving my{" "}
+          <strong className="text-white">full-stack</strong> development skills
+          and always ready to learn new things.
         </p>
 
         <hr />
 
         <h3 className="font-bold text-white">Skills</h3>
-        <div className="flex gap-20">
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
+        <div className="flex gap-15 ">
+          <ul className="space-y-4 text-sm md:text-base lg:text-xl ">
+            <li className="flex items-center gap-4">
+              <FaHtml5 size="1.5em" />
+              HTML
+            </li>
+            <li className="flex items-center gap-4">
+              <FaCss3Alt size="1.5em" />
+              CSS
+            </li>
+            <li className="flex items-center gap-4">
+              <IoLogoJavascript size="1.5em" />
+              Javascript
+            </li>
           </ul>
-          <ul>
-            <li>React</li>
-            <li>TailwindCSS</li>
-            <li>Git</li>
+          <ul className="space-y-4 text-sm md:text-base lg:text-xl ">
+            <li className="flex items-center gap-4">
+              <FaReact size="1.5em" />
+              React
+            </li>
+            <li className="flex items-center gap-4">
+              <RiTailwindCssFill size="1.5em" />
+              TailwindCSS
+            </li>
+            <li className="flex items-center gap-4">
+              <FaGitAlt size="1.5em" />
+              Git
+            </li>
           </ul>
         </div>
       </div>
