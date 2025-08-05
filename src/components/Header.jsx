@@ -37,11 +37,6 @@ const Header = () => {
               Resume
             </a>
           </li>
-          <li>
-            <a href="" className="text-sm btn">
-              Resume
-            </a>
-          </li>
         </ul>
 
         {/* menu button */}

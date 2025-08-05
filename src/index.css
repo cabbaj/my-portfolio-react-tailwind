@@ -31,10 +31,16 @@
   }
 
   .btn {
-    @apply px-4 py-2 text-base font-bold rounded-md cursor-pointer md:text-lg lg:text-xl text-white  bg-accent transition ease-in-out shadow-lg hover:scale-110 hover:-translate-y-1 shadow-red-500/50 hover:shadow-red-700/50 hover:bg-accent-dark;
+    @apply px-4 py-2 text-base font-bold rounded-lg cursor-pointer md:text-lg lg:text-xl text-white  bg-accent transition ease-in-out shadow-lg hover:scale-110 hover:-translate-y-1 shadow-red-500/50 hover:shadow-red-700/50 hover:bg-accent-dark;
   }
 
   .section-heading {
     @apply text-3xl font-bold md:text-4xl lg:text-5xl;
+  }
+}
+
+@layer components {
+  .card {
+    @apply;
   }
 }
