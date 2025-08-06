@@ -8,9 +8,9 @@ import { FaGitAlt } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="container flex flex-col px-2 mt-40 ">
+    <section id="about" className="container flex flex-col px-4 mt-40 ">
       <h2 className="text-left section-heading">About</h2>
-      <div className="flex flex-col gap-4 mt-4 muted-text">
+      <div className="flex flex-col gap-4 mt-8 lg:mt-20 muted-text">
         <img
           src={mePic}
           alt="me pic"
@@ -33,7 +33,7 @@ const About = () => {
 
         <hr />
 
-        <h3 className="font-bold text-white">Skills</h3>
+        <h3 className="font-bold text-white sub-heading">Skills</h3>
         <div className="flex gap-15 ">
           <ul className="space-y-4 text-sm md:text-base lg:text-xl ">
             <li className="flex items-center gap-4">

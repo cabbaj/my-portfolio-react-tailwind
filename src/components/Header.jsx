@@ -28,8 +28,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-accent">
-              Projects
+            <a href="#contact" className="hover:text-accent">
+              Contact
             </a>
           </li>
           <li>
@@ -40,13 +40,16 @@ const Header = () => {
         </ul>
 
         {/* menu button */}
-        <div className="md:hidden" onClick={() => setShowMenu(!showMenu)}>
-          <RxHamburgerMenu className="text-3xl cursor-pointer" />
+        <div
+          className="md:hidden bg-slate-800 p-3 rounded-lg fixed cursor-pointer top-5 right-4"
+          onClick={() => setShowMenu(!showMenu)}
+        >
+          <RxHamburgerMenu className="  text-xl  " />
         </div>
 
         {/* mobile menu */}
         {showMenu && (
-          <div className="px-4 pt-2 md:hidden">
+          <div className="px-4 pt-2 md:hidden h-screen">
             <a href="#" className="block py-2">
               Home
             </a>

@@ -2,7 +2,7 @@ import Icon from "../assets/favicon.png";
 
 const Hero = () => {
   return (
-    <section className="container flex flex-col items-center justify-center mt-20 bg-slate-950">
+    <section className="container flex flex-col items-center justify-center mt-10 ">
       <img
         src={Icon}
         alt="icon"
