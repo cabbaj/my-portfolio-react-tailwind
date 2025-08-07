@@ -23,7 +23,7 @@ const Hero = () => {
         A <strong className="text-white">Front-end</strong> developer who turns
         ideas into smooth, responsive web experiences. I craft{" "}
         <strong className="text-white">user-friendly</strong> interfaces and
-        improve <strong className="text-white">1%</strong> every day.
+        improve myself <strong className="text-white">1%</strong> every day.
       </p>
 
       <a href="#contact" className="mt-8 btn">

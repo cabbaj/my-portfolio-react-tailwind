@@ -41,15 +41,15 @@ const Header = () => {
 
         {/* menu button */}
         <div
-          className="md:hidden bg-slate-800 p-3 rounded-lg fixed cursor-pointer top-5 right-4"
+          className="fixed p-3 rounded-lg cursor-pointer md:hidden bg-slate-800 top-5 right-4"
           onClick={() => setShowMenu(!showMenu)}
         >
-          <RxHamburgerMenu className="  text-xl  " />
+          <RxHamburgerMenu className="text-xl " />
         </div>
 
         {/* mobile menu */}
         {showMenu && (
-          <div className="px-4 pt-2 md:hidden h-screen">
+          <div className="h-screen px-4 pt-2 md:hidden">
             <a href="#" className="block py-2">
               Home
             </a>
