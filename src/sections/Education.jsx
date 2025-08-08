@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <section className="container flex flex-col items-center justify-center px-4 mt-40 ">
+    <section className="container flex flex-col items-center justify-center px-4 mt-60 ">
       <h2 className="text-left section-heading">Education</h2>
       <div className="flex flex-col gap-10 mt-8 lg:mt-20">
         <ol className="relative border-gray-700 border-s">

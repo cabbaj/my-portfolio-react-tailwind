@@ -1,8 +1,8 @@
 /* 
- base is define the default for element 
- component is create component for reusable
- utilities is for adjust element override component and base 
- theme is for custom theme
+ @base is define the default for element 
+ @component is create component for reusable
+ @utilities is for adjust element override component and base 
+ @theme is for custom theme
 */
 
 @import "tailwindcss";
@@ -22,7 +22,7 @@
   }
 
   body {
-    font-family: inter, kanit;
+    font-family: inter, kanit, source code pro;
     @apply bg-slate-950 text-slate-200;
   }
 

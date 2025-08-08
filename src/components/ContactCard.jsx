@@ -2,9 +2,9 @@ import { FiExternalLink } from "react-icons/fi";
 
 const ContactCard = ({ icon, title, info, bg, link }) => {
   return (
-    <a href={link} target="_blank" >
+    <a href={link} target="_blank">
       <div
-        className={`${bg}  flex flex-col w-full max-w-3xl px-4 py-4  rounded-xl bg-slate-800`}
+        className={`${bg}  flex flex-col w-full  max-w-3xl  px-4 py-4 rounded-xl  hover:scale-110 duration-300 ease-in-out `}
       >
         <div className="flex justify-between drop-shadow-xl/50">
           {icon}

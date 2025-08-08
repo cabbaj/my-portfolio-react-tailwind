@@ -6,14 +6,14 @@ const projects = [
     title: "Container Inspection Application",
     img: itail,
     description:
-      "create the container inspection app for use in warehouse department's itail corperation create with powerapp and create database with sharepoint",
+      "Create a container inspection app for the Itail Corporation's warehouse department. The app built with Power Apps and use SharePoint as the database",
     stacks: ["PowerApp", "SharePoint"],
   },
 ];
 
 const Projects = () => {
   return (
-    <section className="container flex flex-col items-center justify-center px-4 mt-40 ">
+    <section className="container flex flex-col items-center justify-center px-4 mt-60 ">
       <h2 className="text-left section-heading">Projects</h2>
       <div className="flex flex-col items-center justify-center max-w-5xl mt-8 gap-x-8 lg:mt-20 xl:gap-x-16 md:flex-row">
         {projects.map((project, index) => (
