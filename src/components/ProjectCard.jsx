@@ -12,7 +12,7 @@ const ProjectCard = ({ title, img, description, stacks }) => {
         <div className="mt-2">
           {stacks.map((stack, index) => (
             <span
-              className="px-2 py-1 mr-3 rounded-lg bg-slate-800 muted-text"
+              className="px-2 py-1 mr-3 rounded-xl bg-slate-800 muted-text"
               key={index}
             >
               {stack}

@@ -14,7 +14,7 @@ const About = () => {
         <img
           src={mePic}
           alt="me pic"
-          className="object-cover object-top mx-auto bg-auto rounded-lg md:mx-10 size-full md:size-60 lg:size-100 xl:size-120"
+          className="object-cover object-top mx-auto bg-auto rounded-xl md:mx-10 size-full md:size-60 lg:size-100 xl:size-120"
         />
 
         <div className="flex flex-col gap-4 md:ml-4 lg:max-w-2xl">

@@ -8,7 +8,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-accent: #ff0040;
+  --color-accent: hsl(345, 100%, 50%);
   --color-accent-dark: hsl(345, 100%, 45%);
 }
 
@@ -31,7 +31,7 @@
   }
 
   .btn {
-    @apply px-4 py-2 text-base font-bold rounded-lg cursor-pointer md:text-lg lg:text-xl text-white  bg-accent transition ease-in-out shadow-lg hover:scale-110 hover:-translate-y-1 shadow-red-500/80 hover:shadow-red-700/50 hover:bg-accent-dark;
+    @apply px-4 py-2 text-base font-bold rounded-xl cursor-pointer md:text-lg lg:text-xl text-white  bg-accent transition ease-in-out shadow-lg hover:scale-110 hover:-translate-y-1 shadow-red-500/80 hover:shadow-red-700/50 hover:bg-accent-dark;
   }
 
   .section-heading {
@@ -43,8 +43,18 @@
   }
 }
 
-/* @layer components {
-  .card {
-    @apply;
-  }
-} */
+::-webkit-scrollbar-track {
+  background: @apply bg-slate-950; /* Set track background color */
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Set scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0040;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(345, 100%, 40%);
+}

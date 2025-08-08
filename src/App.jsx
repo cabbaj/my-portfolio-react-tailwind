@@ -9,9 +9,10 @@ import Projects from "./sections/Projects";
 
 function App() {
   return (
-    <>
+    <div className="relative overflow-hidden">
+      <div className="absolute -left-40 md:left-40 -top-100 w-[500px] h-[500px] rounded-full bg-accent blur-[120px] opacity-40 -z-10 -translate-x-1/4"></div>
       <Header />
-      <main className="container mx-auto border-2">
+      <main className="container mx-auto ">
         <Hero />
         <About />
         <Education />
@@ -20,7 +21,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
