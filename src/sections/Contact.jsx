@@ -48,7 +48,7 @@ const Contact = () => {
         ))}
       </div>
       <a
-        href="../../public/resume.pdf"
+        href="/resume.pdf"
         target="_blank"
         className="px-4 py-2 mt-20 duration-300 ease-in-out border-2 hover:text-slate-950 hover:bg-gradient-to-t hover:from-accent-dark hover:to-accent rounded-xl border-accent"
       >

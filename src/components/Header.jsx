@@ -36,7 +36,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="../../public/resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               className="text-xs btn xl:text-sm"
             >
@@ -93,7 +93,7 @@ const Header = () => {
               </a>
               <hr className="w-1/2 border muted-text" />
               <a
-                href="../../public/resume.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 className=" btn"
               >
