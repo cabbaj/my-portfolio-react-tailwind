@@ -8,14 +8,16 @@ const Header = () => {
   return (
     <header className="container px-4 py-6 mx-auto ">
       <nav className="flex items-center justify-between ">
-        <h2 className="font-bold lg:text-xl md:text-lg xl:text-2xl">
-          Purefolio
-        </h2>
+        <a href="/">
+          <h2 className="font-bold lg:text-xl md:text-lg xl:text-2xl">
+            Purefolio
+          </h2>
+        </a>
 
         {/* desktop menu */}
         <ul className="items-center hidden space-x-6 text-xs font-medium xl:text-sm md:flex muted-text">
           <li>
-            <a href="#home" className="hover:text-accent">
+            <a href="/" className="hover:text-accent">
               Home
             </a>
           </li>
@@ -64,7 +66,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col items-center justify-center w-screen h-screen gap-10 px-4 pt-2 text-xl md:hidden">
               <a
-                href="#home"
+                href="/"
                 onClick={() => setShowMenu(!showMenu)}
                 className="block "
               >
@@ -92,11 +94,7 @@ const Header = () => {
                 Contact
               </a>
               <hr className="w-1/2 border muted-text" />
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                className=" btn"
-              >
+              <a href="/resume.pdf" target="_blank" className=" btn">
                 Resume
               </a>
             </div>
