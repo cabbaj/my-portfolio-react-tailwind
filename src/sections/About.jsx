@@ -1,10 +1,10 @@
 import mePic from "../assets/me-pic.jpg";
-import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const About = () => {
   return (
@@ -52,8 +52,8 @@ const About = () => {
             </ul>
             <ul className="space-y-4 text-sm md:text-base lg:text-xl ">
               <li className="flex items-center gap-4">
-                <FaReact size="1.5em" />
-                React
+                <RiNextjsFill size="1.5em" />
+                NextJS
               </li>
               <li className="flex items-center gap-4">
                 <RiTailwindCssFill size="1.5em" />
