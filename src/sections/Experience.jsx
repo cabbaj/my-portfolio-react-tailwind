@@ -16,7 +16,7 @@ const Experience = () => {
               Hat Yai Air Traffic Control
             </h3>
             <p className="mt-1 font-bold text-left muted-text">
-              Position: Intern (Air Traffic Engineering Department)
+              Position: Air Traffic Engineering
             </p>
             <ul className="text-sm list-disc list-inside muted-text">
               <li>Developed a Drone Tracking System (Web Application)</li>
