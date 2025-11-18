@@ -16,11 +16,11 @@ const Hero = () => {
           👋
         </p>
       </div>
-      <h1 className="mt-4 text-5xl font-black text-accent md:text-7xl lg:text-8xl xl:text-9xl">
-        FRONT-END <br /> DEVELOPER
+      <h1 className="mt-4 text-5xl font-black text-accent md:text-7xl lg:text-8xl xl:text-9xl text-center">
+        FULL-STACK <br /> DEVELOPER
       </h1>
       <p className="max-w-3xl px-4 mt-4 muted-text">
-        A <strong className="text-white">Front-end</strong> developer who turns
+        A <strong className="text-white">Full-stack</strong> developer who turns
         ideas into smooth, responsive web experiences. I craft{" "}
         <strong className="text-white">user-friendly</strong> interfaces and
         improve myself <strong className="text-white">1%</strong> every day.
