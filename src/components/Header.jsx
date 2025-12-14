@@ -38,7 +38,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               target="_blank"
               className="text-xs btn xl:text-sm"
             >

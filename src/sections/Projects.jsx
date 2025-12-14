@@ -8,7 +8,7 @@ const projects = [
     title: "Container Inspection Application",
     img: itail,
     description:
-      "Developed a container inspection app for Itail Corporation's warehouse. The app was built with Power Apps and uses SharePoint as the database.",
+      "Developed a container inspection app for i-Tail Corporation's warehouse. The app was built with Power Apps and uses SharePoint as the database.",
     stacks: ["Power Apps", "SharePoint"],
   },
   {
