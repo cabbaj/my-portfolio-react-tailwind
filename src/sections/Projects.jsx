@@ -17,6 +17,7 @@ const projects = [
     description:
       "A drone tracking website using GPS is a platform designed to display the real-time positions of individual drones on a map. It uses Leaflet.js to manage and render the map interface, with OpenStreetMap as the map data source. Each drone provides information such as latitude, longitude, altitude, and speed. When a drone enters or approaches a no-fly zone, the system will display an alert notification.",
     stacks: ["Javascript", "Node.js", "PostgreSQL"],
+    link: "https://github.com/cabbaj/drone-tracking-system"
   },
   {
     title: "Weather App",
@@ -24,6 +25,7 @@ const projects = [
     description:
       "A basic weather web app that shows the day, local time, today's weather, temperature, and humidity. You can also search for any location you want to check. Data is fetched from the atOpenWeatherMap API.",
     stacks: ["Next.js", "TypeScript", "tailwindCSS"],
+    link: "https://github.com/cabbaj/weather-app-nextjs"
   },
 ];
 

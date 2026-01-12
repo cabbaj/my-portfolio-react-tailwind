@@ -1,13 +1,29 @@
-const ProjectCard = ({ title, img, description, stacks }) => {
+import { FiExternalLink } from "react-icons/fi";
+
+const ProjectCard = ({ title, img, description, stacks, link }) => {
   return (
+    // image
     <div className="flex flex-col md:flex-row">
       <img
         src={img}
         alt={title}
         className="object-cover rounded-lg h-60 w-100"
       />
+
+      {/* info */}
       <div className="flex flex-col justify-center gap-2 mt-4">
-        <h3 className="font-bold text-center sub-heading">{title}</h3>
+        {link ? (
+          <a href={link} target="_blank">
+            <div className="text-center">
+              <h3 className="inline font-bold text-center sub-heading hover:underline">
+                {title}
+              </h3>
+              <FiExternalLink className="inline ml-2 text-sm" />
+            </div>
+          </a>
+        ) : (
+          <h3 className="font-bold text-center sub-heading">{title}</h3>
+        )}
         <p className="ml-4 text-left px-5 text-sm md:ml-0 muted-text md:text-center">
           {description}
         </p>
