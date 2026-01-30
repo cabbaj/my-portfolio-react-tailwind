@@ -2,6 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import itail from "../assets/itail.png";
 import weatherApp from "../assets/weatherApp.png";
 import droneTracking from "../assets/droneTracking.png";
+import porBeautySalon from "../assets/porBeautySalon.png";
 
 const projects = [
   {
@@ -26,6 +27,14 @@ const projects = [
       "A basic weather web app that shows the day, local time, today's weather, temperature, and humidity. You can also search for any location you want to check. Data is fetched from the OpenWeatherMap API.",
     stacks: ["Next.js", "TypeScript", "tailwindCSS", "OpenWeatherMap API"],
     link: "https://github.com/cabbaj/weather-app-nextjs",
+  },
+  {
+    title: "Por Beauty Salon",
+    img: porBeautySalon,
+    description:
+      "Por Beauty Salon Project is a landing page website I built for my mother’s beauty salon. The goal of this project is to increase the salon’s credibility, improve its online presence, and make it easier for customers to learn about services and contact the shop.",
+    stacks: ["Next.js", "TypeScript", "tailwindCSS"],
+    link: "https://porbeautysalon.vercel.app/",
   },
 ];
 
